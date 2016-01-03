@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0m:: delivering :: default#projects_2.10;0.1-SNAPSHOT :: 0.1-SNAPSHOT :: integration :: Sun Jan 03 15:44:23 CST 2016[0m
+[0m[[0mdebug[0m] [0m	options = status=integration pubdate=Sun Jan 03 15:44:23 CST 2016 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m	delivering ivy file to /home/silvia/tox4j/projects/target/scala-2.10/ivy-0.1-SNAPSHOT.xml[0m
+[0m[[0mdebug[0m] [0mno default cache defined: set to /home/silvia/.ivy2/cache[0m
+[0m[[0mdebug[0m] [0m	deliver done (12ms)[0m

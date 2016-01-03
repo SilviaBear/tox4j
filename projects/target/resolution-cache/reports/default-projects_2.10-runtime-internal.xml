@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="projects_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, protobuf"
+		date="20160103154423"/>
+	<dependencies>
+		<module organisation="com.trueaccord.scalapb" name="scalapb-runtime_2.10">
+			<revision name="0.5.15" status="release" pubdate="20151116012442" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/trueaccord/ScalaPB" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3115" time="0" location="/home/silvia/.ivy2/cache/com.trueaccord.scalapb/scalapb-runtime_2.10/ivy-0.5.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/trueaccord/scalapb/scalapb-runtime_2.10/0.5.15/scalapb-runtime_2.10-0.5.15.pom"/>
+				<caller organisation="default" name="projects_2.10" conf="compile, runtime-internal, runtime, optional" rev="0.5.15" rev-constraint-default="0.5.15" rev-constraint-dynamic="0.5.15" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalapb-runtime_2.10" type="jar" ext="jar" status="no" details="" size="39230" time="0" location="/home/silvia/.ivy2/cache/com.trueaccord.scalapb/scalapb-runtime_2.10/jars/scalapb-runtime_2.10-0.5.15.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/trueaccord/scalapb/scalapb-runtime_2.10/0.5.15/scalapb-runtime_2.10-0.5.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.trueaccord.lenses" name="lenses_2.10">
+			<revision name="0.4.4" status="release" pubdate="20151116000814" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/trueaccord/lenses" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2776" time="0" location="/home/silvia/.ivy2/cache/com.trueaccord.lenses/lenses_2.10/ivy-0.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/trueaccord/lenses/lenses_2.10/0.4.4/lenses_2.10-0.4.4.pom"/>
+				<caller organisation="com.trueaccord.scalapb" name="scalapb-runtime_2.10" conf="default, compile, runtime, master" rev="0.4.4" rev-constraint-default="0.4.4" rev-constraint-dynamic="0.4.4" callerrev="0.5.15"/>
+				<artifacts>
+					<artifact name="lenses_2.10" type="jar" ext="jar" status="no" details="" size="46387" time="0" location="/home/silvia/.ivy2/cache/com.trueaccord.lenses/lenses_2.10/jars/lenses_2.10-0.4.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/trueaccord/lenses/lenses_2.10/0.4.4/lenses_2.10-0.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.5" status="release" pubdate="20150226195430" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2669" time="0" location="/home/silvia/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.pom"/>
+				<evicted-by rev="2.10.6"/>
+				<caller organisation="com.trueaccord.lenses" name="lenses_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="0.4.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.10.6" status="release" pubdate="20150918043528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="2">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2669" time="0" location="/home/silvia/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.pom"/>
+				<caller organisation="com.trueaccord.scalapb" name="scalapb-runtime_2.10" conf="default, compile, runtime, master" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.5.15"/>
+				<caller organisation="com.trueaccord.lenses" name="lenses_2.10" conf="compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="0.4.4"/>
+				<caller organisation="default" name="projects_2.10" conf="compile, runtime-internal, runtime, optional" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7132001" time="0" location="/home/silvia/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.4" status="release" pubdate="20140318164629" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2669" time="0" location="/home/silvia/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<evicted-by rev="2.10.6"/>
+				<caller organisation="default" name="projects_2.10" conf="compile, runtime-internal, runtime, optional" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="3.0.0-beta-1" status="release" pubdate="20150827190830" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://developers.google.com/protocol-buffers/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3034" time="0" location="/home/silvia/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.0.0-beta-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.0.0-beta-1/protobuf-java-3.0.0-beta-1.pom"/>
+				<caller organisation="com.trueaccord.scalapb" name="scalapb-runtime_2.10" conf="default, compile, runtime, master" rev="3.0.0-beta-1" rev-constraint-default="3.0.0-beta-1" rev-constraint-dynamic="3.0.0-beta-1" callerrev="0.5.15"/>
+				<caller organisation="default" name="projects_2.10" conf="compile, runtime-internal, runtime, optional" rev="3.0.0-beta-1" rev-constraint-default="3.0.0-beta-1" rev-constraint-dynamic="3.0.0-beta-1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="1017252" time="0" location="/home/silvia/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-3.0.0-beta-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.0.0-beta-1/protobuf-java-3.0.0-beta-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

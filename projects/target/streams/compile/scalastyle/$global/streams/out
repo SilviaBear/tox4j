@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0mdownloading file:/home/silvia/tox4j/projects/project/target/scala-2.10/sbt-0.13/classes/im/tox/sbt/lint/scalastyle-config.xml to /home/silvia/tox4j/projects/target/scalastyle-config.xml[0m
+[0m[[0minfo[0m] [0mscalastyle using config /home/silvia/tox4j/projects/target/scalastyle-config.xml[0m
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0minfo[0m] [0mProcessed 0 file(s)[0m
+[0m[[0minfo[0m] [0mFound 0 errors[0m
+[0m[[0minfo[0m] [0mFound 0 warnings[0m
+[0m[[0minfo[0m] [0mFound 0 infos[0m
+[0m[[0minfo[0m] [0mFinished in 44 ms[0m
+[0m[[32msuccess[0m] [0mcreated output: /home/silvia/tox4j/projects/target[0m
